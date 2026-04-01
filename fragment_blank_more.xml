@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- RecyclerView for Image Slider -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/imageSliderRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Women Laws Button -->
+    <!-- Title for Women Laws -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Women's Safety Laws in Pakistan"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Women Laws Button -->
+    <Button
+        android:id="@+id/btnwomenLaws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laws for Women Protection"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/lilac"
+        android:padding="16dp"
+        android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Title for Safety Tips -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Important Safety Tips for You"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Safety Tips Button -->
+    <Button
+        android:id="@+id/btnsafetyTips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General Safety Tips"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/lilac"
+        android:padding="16dp"
+        android:drawableEnd="@drawable/baseline_arrow_forward_ios_24" />
+
+
+</LinearLayout>
